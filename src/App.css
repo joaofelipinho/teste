@@ -3,7 +3,7 @@ body{
   background-color: #fff;
 }
 
-button{
+.botao1{
   background-color:  #0F4C81;
   color: white;
   border-radius: 5px;
@@ -12,7 +12,98 @@ button{
   position: absolute;
   left: 1000px;
   top: 150px;
-  font-size: 15px;
+  font-size: 17px;
+}
+
+/*==========================================botao de excluir============================================*/
+.botao_excluir{
+  border-radius: 1000px;
+  background-color: white;
+  border-color: red;
+  position: absolute;
+  right: 70px;
+  top: 300px;
+  font-size: 30px;
+}
+
+.botao_excluir2{
+  border-radius: 1000px;
+  background-color: white;
+  border-color: red;
+  position: absolute;
+  right: 70px;
+  top: 520px;
+  font-size: 30px;
+}
+
+.botao_excluir3{
+  border-radius: 1000px;
+  background-color: white;
+  border-color: red;
+  position: absolute;
+  right: 70px;
+  top: 770px;
+  font-size: 30px;
+}
+/*==========================================botao de editar==========================================*/
+.botao_editar{
+  border-radius: 1000px;
+  background-color: white;
+  border-color: #0F4C81;
+  position: absolute;
+  right: 130px;
+  top: 300px;
+  font-size: 30px;
+}
+
+.botao_editar2{
+  border-radius: 1000px;
+  background-color: white;
+  border-color: #0F4C81;
+  position: absolute;
+  right: 130px;
+  top: 520px;
+  font-size: 30px;
+}
+
+.botao_editar3{ 
+  border-radius: 1000px;
+  background-color: white;
+  border-color: #0F4C81;
+  position: absolute;
+  right: 130px;
+  top: 770px;
+  font-size: 30px;
+}
+/*==========================================botao de compra ==========================================*/
+.botao_compra{
+  border-radius: 1000px;
+  background-color: white;
+  border-color: #0F4C81;
+  position: absolute;
+  right: 190px;
+  top: 300px;
+  font-size: 30px;
+}
+
+.botao_compra2{
+  border-radius: 1000px;
+  background-color: white;
+  border-color: #0F4C81;
+  position: absolute;
+  right: 190px;
+  top: 520px;
+  font-size: 30px;
+}
+
+.botao_compra3{
+  border-radius: 1000px;
+  background-color: white;
+  border-color: #0F4C81;
+  position: absolute;
+  right: 190px;
+  top: 770px;
+  font-size: 30px;
 }
 
 h1{

@@ -1,9 +1,11 @@
 import React from "react";
 import Header from "./components/Header/index";
 import Footer from "./components/Footer/index";
-import { PlusCircleOutlined } from "@ant-design/icons";
+import { PlusCircleOutlined,DeleteOutlined,FormOutlined,ShoppingCartOutlined} from "@ant-design/icons";
+//==========================================================teste
 
 import "./App.css";
+
 
 function App() {
   return (
@@ -12,8 +14,9 @@ function App() {
       <div>
         <h1>Produtos</h1>
 
-        <button> <PlusCircleOutlined style={{fontSize:20,color:'white'}}/> Adicionar Produto</button>
-
+        <button className="botao1"> <PlusCircleOutlined style={{fontSize:20,color:'white',}}/> Adicionar Produto</button>
+        
+        
         <div class="grid">
           <div class="coluna1">
             <img src="./oi.png" />
@@ -25,6 +28,10 @@ function App() {
             <p className="cor">Cor:Branca</p>
           </div>
         </div>
+
+        <button className="botao_excluir"><DeleteOutlined style={{color:'red',fontSize:25}}/></button>
+        <button className="botao_editar"><FormOutlined style={{color:'#0F4C81',fontSize:25}} /></button>
+        <button className="botao_compra"><ShoppingCartOutlined style={{color:'#0F4C81',fontSize:25}}/></button>
 
         <div class="grid">
           <div class="coluna2">
@@ -38,6 +45,10 @@ function App() {
           </div>
         </div>
 
+        <button className="botao_excluir2"><DeleteOutlined style={{color:'red',fontSize:25}}/></button>
+        <button className="botao_editar2"><FormOutlined style={{color:'#0F4C81',fontSize:25}} /></button>
+        <button className="botao_compra2"><ShoppingCartOutlined style={{color:'#0F4C81',fontSize:25}}/></button>
+
         <div class="grid">
           <div class="coluna">
             <img src="./wayfair.png" />
@@ -49,6 +60,11 @@ function App() {
             <p className="cor3">Cor:Branca</p>
           </div>
         </div>
+
+        <button className="botao_excluir3"><DeleteOutlined style={{color:'red',fontSize:25}}/></button>
+        <button className="botao_editar3"><FormOutlined style={{color:'#0F4C81',fontSize:25}} /></button>
+        <button className="botao_compra3"><ShoppingCartOutlined style={{color:'#0F4C81',fontSize:25}}/></button>
+
       </div>
       <Footer />
     </>
