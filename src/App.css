@@ -1,0 +1,143 @@
+body{
+  margin: 0;
+  background-color: #fff;
+}
+
+button{
+  background-color:  #0F4C81;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 180px; 
+  position: absolute;
+  left: 1000px;
+  top: 150px;
+  font-size: 15px;
+}
+
+h1{
+  font-size: calc(7px + 7vmin);
+  font-family: unset;
+  margin: 70px 100px 10px 180px;
+}
+/*=====================================produto1===================================*/
+.titulo{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: 390px;
+  grid-template-columns: 30% 70%;
+  font-size: 20px;
+  position: absolute;
+  top: 230px;
+  left: 330px;
+}
+
+.marca{
+  text-align: center;
+  position: absolute;
+  left: 330px;
+  top: 282px;
+}
+
+.valor{
+  position: absolute;
+  left: 150px;
+  top: 250px;
+  color: #0F4C81;
+}
+
+.cor{
+  position: absolute;
+  top: 360px;
+  left: 330px;
+}
+/*=====================================fim do primeiro produto======================================*/
+
+/*=====================================produto2====================================================*/
+
+
+.titulo2{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: 380px;
+  grid-template-columns: 30% 70%;
+  font-size: 20px;
+  position: absolute;
+  top: 465px;
+  left: 330px;
+  
+}
+
+.marca2{
+  position: absolute;
+  left: 330px;
+  top: 510px;
+}
+
+.valor2{
+  color: #0F4C81;
+  position: absolute;
+  top: 480px;
+  left: 150px;
+}
+
+.cor2{
+  position: absolute;
+  left: 330px;
+  top: 585px;
+}
+/*========================================fim produto2=============================*/
+
+/*=========================================produto3=================================*/
+
+.titulo3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-right: 380px;
+  grid-template-columns: 30% 70%;
+  font-size: 20px;
+  position: absolute;
+  top: 700px;
+  left: 330px;
+}
+
+.marca3{
+  position: absolute;
+  left: 330px;
+  top: 747px;
+}
+
+.valor3{
+  color: #0F4C81;
+  position: absolute;
+  top: 715px;
+  left: 150px;
+}
+
+.cor3{
+  position: absolute;
+  left: 330px;
+  top: 825px;
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.coluna{
+  display:grid;
+  margin-top: 21%;
+  margin-left: 139px;
+}
+.coluna1{
+  display:grid;
+  margin-top: 0%;
+  margin-left: 125px;
+}
+
+.coluna2{
+  display:grid;
+  margin-top: 39%;
+  margin-left: 140px;
+}
